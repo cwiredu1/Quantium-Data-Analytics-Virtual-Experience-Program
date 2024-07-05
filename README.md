@@ -1,4 +1,4 @@
-# Quantium-Data-Analytics-Virtual-Experience-Program
+# Quantium-Data-Analytics-Virtual-Experience Project
 This repository contains results of the completed tasks for the Quantium Data Analytics Virtual Experience Program by Forage, designed to replicate life in the Retail Analytics and Strategy team at Quantium, using Python.
 This program consisted of three task and the following submissions were made
 
