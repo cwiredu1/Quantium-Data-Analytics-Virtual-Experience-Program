@@ -50,8 +50,11 @@ Plot the groupby into stacked bar chart with percentage text on each segment sta
 
 ## Insights:
 
-The three highest contributing segments to total sales are: 1. Budget older families, 2. Mainstream young singles/couples, 3. Mainstream retirees
-Older families have largest avg no of packets purchased per customer, while the mainstream young singles/couples have the largest population
-Across most segments, Kettles chips and 175g packets are the most purchased
-Minstream young singles/couple are 28% more likely to purchase Tyrells chips than other segments, and 32% more likely to purchase 270g chip packets which are Twisties chips
+- The three highest contributing segments to total sales are: 
+1. Budget older families,
+2. Mainstream young singles/couples,
+3. Mainstream retirees
+- Older families have largest avg no of packets purchased per customer, while the mainstream young singles/couples have the largest population
+- Across most segments, Kettles chips and 175g packets are the most purchased
+- Minstream young singles/couple are 28% more likely to purchase Tyrells chips than other segments, and 32% more likely to purchase 270g chip packets which are Twisties chips
 
