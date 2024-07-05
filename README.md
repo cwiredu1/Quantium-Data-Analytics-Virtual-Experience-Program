@@ -58,3 +58,25 @@ Plot the groupby into stacked bar chart with percentage text on each segment sta
 - Across most segments, Kettles chips and 175g packets are the most purchased
 - Minstream young singles/couple are 28% more likely to purchase Tyrells chips than other segments, and 32% more likely to purchase 270g chip packets which are Twisties chips
 
+# Task 2 - Experimentation and Uplift Testing
+Extend your analysis from Task 1 to help you identify benchmark stores that allow you to test the impact of the trial store layouts on customer sales.
+
+## Background Information for the task
+Julia has asked us to evaluate the performance of a store trial which was performed in stores 77, 86 and 88.
+
+This can be broken down by:
+
+- total sales revenue
+- total number of customers
+- average number of transactions per customer
+  
+Create a measure to compare different control stores to each of the trial stores to do this write a function to reduce having to re-do the analysis for each trial store. Consider using Pearson correlations or a metric such as a magnitude distance e.g. 1- (Observed distance – minimum distance)/(Maximum distance – minimum distance) as a measure. Once you have selected your control stores, compare each trial and control pair during the trial period. You want to test if total sales are significantly different in the trial period and if so, check if the driver of change is more purchasing customers or more purchases per customers etc.
+
+## Insights:
+- We can see that Trial store 77 sales for Feb, March, and April exceeds 95% threshold of control store. Same goes to store 86 sales for all 3 trial months.
+1. Trial store 77: Control store 233
+2. Trial store 86: Control store 155
+3. Trial store 88: Control store 40
+   
+- Both trial store 77 and 86 showed significant increase in Total Sales and Number of Customers during trial period. But not for trial store 88. Perhaps the client knows if there's anything about trial 88 that differs it from the other two trial.
+- Overall the trial showed positive significant result.
