@@ -24,6 +24,9 @@ We need to present a strategic recommendation to Julia that is supported by data
 - Examine customer data - similar to above transaction data
 - Data analysis and customer segments - create charts and graphs, note trends and insights
 - Deep dive into customer segments - determine which segments should be targetted
-- Data Cleaning:
+  
+## Data Cleaning:
 - Date column was in integer format. So the date column was changed to date time format.
-There are 365 days in a year but in the DATE column there are only 364 unique values so one was missing. As it was a Christmas day and store was closed there was no anomaly. Value was kept as zero transaction for "TOT_SALES".
+- There are 365 days in a year but in the DATE column there are only 364 unique values so one was missing. As it was a Christmas day and store was closed there was no anomaly. Value was kept as zero transaction for "TOT_SALES".
+![December_Sales](https://github.com/cwiredu1/Quantium-Data-Analytics-Virtual-Experience-Program/assets/121901813/6127404b-a599-478d-a7fa-f356d519faa1)
+
